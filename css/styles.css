@@ -1,0 +1,93 @@
+#wrap {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -3px;
+}
+
+nav {
+  float: right;
+  font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+#main {
+  float: left;
+  width:800px;
+  padding: 10px;
+  margin: 12px;
+}
+
+#side-bar {
+  width: 400px;
+  float: right;
+  padding: 10px;
+  margin: 20px;
+  margin-right: 40px;
+}
+
+#side-bar li {
+  list-style: none;
+  margin: 10px;
+}
+
+#images {
+  clear: both;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+img {
+  width: 430px;
+  height: 520px;
+  float: left;
+}
+
+#photo-credit {
+  clear: both;
+  margin-left: 20px;
+}
+
+#nav-bar {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+#top {
+  overflow: auto;
+}
+
+#info {
+  overflow: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+#info a, #photo-credit a {
+  color: #ffa64d;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2f1ee;
+}
+
+#main p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
